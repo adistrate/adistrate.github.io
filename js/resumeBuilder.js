@@ -187,7 +187,6 @@ function displayWork () {
 		var prettyDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
 		$('.work-entry:last').append(
 			prettyDescription);
-//		var duration = calcDuration(work.jobs[job].dates[0], work.jobs[job].dates[1]);
 		var duration = moment(work.jobs[job].dates[1], "MMMM YYYY").diff(moment(work.jobs[job].dates[0],"MMMM YYYY"));
 		var duration = moment.duration(duration).add(1, 'month');
 

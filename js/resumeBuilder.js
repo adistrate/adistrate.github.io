@@ -303,7 +303,7 @@ function workTop () {
 displayHeader ()
 
 // Set the margin top size according to the header size and update on resize
-setTimeout(workTop, 500); // set timeout to fix incorrect value for header size
+setTimeout(workTop, 600); // set timeout to fix incorrect value for header size
 
 workTop ();
 

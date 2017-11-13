@@ -142,7 +142,7 @@ var projects = {
 	{
 		"title" : "Acest CV",
 		"dates" : "În progress",
-		"description" : "Crearea un CV utilizând JavaScript",
+		"description" : "Crearea unui CV utilizând JavaScript",
 		"images" : [
 		]
 	},

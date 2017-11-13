@@ -140,18 +140,21 @@ var work = {
 var projects = {
 	projects : [
 	{
-		"title" : "Projects",
-		"dates" : "in progress",
-		"description" : "My fancy project tada",
-		"images" : [ "https://media2.giphy.com/media/ORWPpKNFAjrAk/200w.gif#6", "https://media4.giphy.com/media/suxgXSEOb3EFq/200w.gif#4" ]
-	},
+		"title" : "Acest CV",
+		"dates" : "În progress",
+		"description" : "Crearea un CV utilizând JavaScript",
+		"images" : [
+		]
+	}
+/*	Exemplu format proiect
 	{
 		"title" : "Projects 2",
 		"dates" : "2015",
 		"description" : "Old project",
 		"images" : [ 
 		]
-	}	
+	}
+*/	
 	]
 }
 

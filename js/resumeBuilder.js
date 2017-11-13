@@ -1,6 +1,6 @@
 ﻿var bio = {
 	'name' : 'Istrate Adrian',
-	'role' : 'Infrastructure Specialist AIX Linux',
+	'role' : 'Specialist Infrastructură Aix Linux',
 	'contacts' : {
 		'mobile' : '0722520666',
 		'email' : 'adrian.istrate@ymail.com',
@@ -8,25 +8,25 @@
 	},	
 	'bioPic' : 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAARAAAAAJDU5ZjU1MzNjLTQ0OWQtNDE4MS1iMDc0LTNkYzNhN2QxMzdjYw.jpg',
 	'welcome message' : 'This is a test',
-	'skills' : ["Linux", "Git", "JavaScript", "Apache", "WepSphere jython scripting"],
+	'skills' : ["Administrare Linux", "Git", "JavaScript", "Apache", "Scripting WepSphere - jython", "Redmine", "Jira", "Confluence", "Jenkins", "Scripting bash", "Administrare Microsoft Windows"],
 }
 moment.locale('ro');
 
 var education = {
 	"schools" : [
 	{
-		"name" : "Liceul Grup Școlar de Arte si Meserii",
+		"name" : "Grup Școlar de turism și alimentație publică",
 		"location" : "Brașov",
 		"degree" : "Tehncian în Activități Financiare și Comerciale",
 		"majors" : "Contabilitate",
 		"dates" : "2003-2007",
 	},
 	{
-		"name" : "Facultatea .",
+		"name" : "Universitatea George Barițiu",
 		"location" : "Brașov",
-		"degree" : "-",
+		"degree" : "- studii întrerupte",
 		"majors" : "Contabilitate și Informatică de gestiune",
-		"dates" : "2014-",
+		"dates" : "2007-2009",
 	}
 	],
 	"courses" : [
@@ -129,8 +129,8 @@ var work = {
 		"location" : "București"
 	},
 	{
-		"employer" : "Employer4",
-		"title" : "Employee4",
+		"employer" : "CGS Romania",
+		"title" : "Reprezentat relații cu clienții",
 		"dates" : ["Decembrie 2012","Aprilie 2016"],
 		"description" : "To be filled in",
 		"location" : "Strasbourg"
@@ -145,7 +145,14 @@ var projects = {
 		"description" : "Crearea un CV utilizând JavaScript",
 		"images" : [
 		]
-	}
+	},
+	{
+		"title" : "Website responsive",
+		"dates" : "În progress",
+		"description" : "Crearea unui website responsive folosind bootstrap și Shards",
+		"images" : [ 
+		]
+	}	
 /*	Exemplu format proiect
 	{
 		"title" : "Projects 2",
@@ -167,9 +174,9 @@ function displayHeader (){
 			$('#skills').append(prettySkill);
 		}
 	}	
-	$('#header').prepend(HTMLbioPic.replace("%data%", bio.bioPic));
 	$('#header').prepend(HTMLheaderRole.replace("%data%", bio.role));
 	$('#header').prepend(HTMLheaderName.replace("%data%", bio.name));
+	$('#header').prepend(HTMLbioPic.replace("%data%", bio.bioPic));
 	var customContact = HTMLcontactGeneric.replace("%contact%", "Linkedin");
 	var customContact = customContact.replace("%data%", "<a id=linkedin href=https://www.linkedin.com/in/adrian-istrate>https://www.linkedin.com/in/adrian-istrate</a>");
 	$('#topContacts').append(customContact);

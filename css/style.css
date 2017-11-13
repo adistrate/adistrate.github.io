@@ -235,6 +235,11 @@ span {
   color: #0A0524;
 }
 
+.align-right {
+  float: right;
+  padding-top: 20px;
+}
+
 #letsConnect {
   text-align: center;
 }
@@ -245,9 +250,16 @@ span {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .align-right{
+    display: none;
+  }
+}
+
 @media only screen and (max-width:900px) {
   .biopic {
     width: 175px;
+    margin-top: 20px;
   }
   #topContacts {
     margin-top: 50px;
@@ -255,6 +267,10 @@ span {
 }
 
 @media only screen and (max-width: 835px) {
+
+    .biopic {
+    margin-top: 40px;
+  }
     #topContacts {
     margin-top: 15px;
   }

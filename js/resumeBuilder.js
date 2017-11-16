@@ -24,7 +24,7 @@ var education = {
 	{
 		"name" : "Universitatea George Barițiu",
 		"location" : "Brașov",
-		"degree" : "-",
+		"degree" : "- studii întrerupte",
 		"majors" : "Contabilitate și Informatică de gestiune",
 		"dates" : "2007-2009",
 	}

@@ -6,7 +6,7 @@
 		'email' : 'adrian.istrate@ymail.com',
 		'location' : 'Brașov'
 	},	
-	'bioPic' : 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAARAAAAAJDU5ZjU1MzNjLTQ0OWQtNDE4MS1iMDc0LTNkYzNhN2QxMzdjYw.jpg',
+	'bioPic' : '',
 	'welcome message' : 'This is a test',
 	'skills' : ["Administrare Linux", "Git", "JavaScript", "Apache", "Scripting WepSphere - jython", "Redmine", "Jira", "Confluence", "Jenkins", "Scripting bash", "Administrare Microsoft Windows"],
 }
@@ -27,6 +27,13 @@ var education = {
 		"degree" : "-",
 		"majors" : "Contabilitate și Informatică de gestiune",
 		"dates" : "2007-2009",
+	},
+	{
+		"name" : "Universitatea Transilvania Brașov",
+		"location" : "Brașov",
+		"degree" : "",
+		"majors" : "Matematică Informatică",
+		"dates" : "2019-2021",
 	}
 	],
 	"courses" : [

@@ -1,6 +1,6 @@
 ﻿var bio = {
 	'name' : 'Istrate Adrian',
-	'role' : 'Specialist Infrastructură Aix Linux',
+	'role' : 'Operations Engineer',
 	'contacts' : {
 		'mobile' : '0722520666',
 		'email' : 'adrian.istrate@ymail.com',
